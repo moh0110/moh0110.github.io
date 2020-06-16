@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	input[type="text"]{
+		color : blue;
+	}
+	input[type="text"]:hover{
+		background-color : pink;
+	}
+	input[type="text"]:focus{
+		font-size : 20px;
+	}
+	label {
+		display : block;
+		border : 0px solid red;
+		padding : 10px;
+	}
+	span{
+		display : inline-block;
+		border : 0px solid red;
+		text-align : right;
+		width : 100px;
+		padding : 10px;
+	}
+</style>
+</head>
+<body>
+<form name="myfrom" method="post">
+	<label>
+	<span> 아이디 : </span><input type="text" name="id" placeholder="ex) abc123"></label>
+	<label>
+	<span> 비밀번호 : </span><input type="text" name="password" placeholder="ex)********"></label>
+	<label>
+	<input style="margin-left : 120px" type="submit" value="로그인"name="btn"></label>
+</form>
+</body>
+</html>
